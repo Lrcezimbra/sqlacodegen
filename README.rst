@@ -1,3 +1,8 @@
+To install, do::
+
+    pip install -e git+https://github.com/Lrcezimbra/sqlacodegen@7f31b3092f04d1074c6775bc11464944d99a97b1#egg=sqlacodegen
+
+
 This is a tool that reads the structure of an existing database and generates the appropriate
 SQLAlchemy model code, using the declarative style if possible.
 
@@ -28,7 +33,7 @@ Installation
 
 To install, do::
 
-    pip install sqlacodegen
+    pip install -e git+https://github.com/Lrcezimbra/sqlacodegen@7f31b3092f04d1074c6775bc11464944d99a97b1#egg=sqlacodegen
 
 
 Example usage
